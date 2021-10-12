@@ -1,0 +1,43 @@
+body{
+    background-image: url("/images/bg.jpg");
+}
+.gradient-custom {
+    background-color: rgba(0, 0, 0, 0.596);
+    padding-top: 55px;
+
+  } 
+.navbar{
+    background-color: #000102;
+}
+  .text{
+      color: #eee;
+  }
+  .back{
+    background-color: black;
+  }
+  .border{
+    border-radius: 3%;
+    border: none !important;
+      background-color: rgb(0, 0, 0,25%);
+  } 
+  .border input{
+    background-color: #00010211;
+    border-radius: 0%;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+  .border input::placeholder{
+    color: rgba(238, 238, 238, 0.473);
+    font-size: 12px;
+  }
+  .border button{
+    background-color: #747679;
+    border: none;
+  }
+  .form-control:focus, .form-control:active {
+    color: #fff;
+    background: transparent;
+  }
+  .card-img, .card-img-top {
+    max-height: 230px;
+  }
